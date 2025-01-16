@@ -46,3 +46,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 })
 
 -- vim: ts=2 sts=2 sw=2 et
+-- Tab indent
+vim.keymap.set('v', '<Tab>', '>gv')
+vim.keymap.set('v', '<S-Tab>', '<gv')
